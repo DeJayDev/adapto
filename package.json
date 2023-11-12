@@ -1,0 +1,28 @@
+{
+  "name": "adapto",
+  "version": "1.0.0",
+  "description": "Versatile Discord Bot, yo adapto",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.2.1",
+    "hono": "^3.9.2"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OtterUniversity/adapto.git"
+  },
+  "author": "Dj Isaac <contact@dejaydev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OtterUniversity/adapto/issues"
+  },
+  "homepage": "https://github.com/OtterUniversity/adapto#readme"
+}
