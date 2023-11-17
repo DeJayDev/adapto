@@ -3,19 +3,25 @@
   "version": "1.0.0",
   "description": "Versatile Discord Bot, yo adapto",
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
     "lint": "biome lint src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tunnel": "cloudflared tunnel run"
   },
   "dependencies": {
+    "@discordjs/rest": "^2.1.0",
     "@hono/node-server": "^1.2.1",
+    "discord-verify": "^1.2.0",
     "hono": "^3.9.2"
   },
   "devDependencies": {
     "@biomejs/biome": "1.3.3",
-    "tsx": "^3.12.2"
+    "discord-api-types": "^0.37.63",
+    "tsx": "^3.12.2",
+    "typescript": "^5.2.2"
   },
   "repository": {
     "type": "git",
